@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Search from "./Search"
 
 function App() {
   return (
@@ -7,12 +9,30 @@ function App() {
         <img
           src="Dictionary.png"
           alt="Dictionary logo"
-          width="200"
-          height="300"
+          width="150"
+          height="200"
           className="logo"
         ></img>
-        Hello World!
+        <Search />
       </header>
+      <footer className='App-footer'>
+        <p>
+          This project was coded by{" "}
+          <a className="App-link" href="#" target="_blank">
+            Chelsea Brodin
+          </a>{" "}
+          and is{" "}
+          <a
+            className="App-link"
+            href="https://github.com/cbrodin/app-react-dictionary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Open Sourced on Git-Hub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
