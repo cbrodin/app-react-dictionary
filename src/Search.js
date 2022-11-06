@@ -28,7 +28,7 @@ export default function Search() {
         <input type="search" onChange={handleKeywordChange} autoFocus={true} />
       </form>
       <p1 className="searchExample">i.e. food, dog, forest, sunrise </p1>
-      <Results results={results} />
+      <Results className="Results" results={results} />
     </div>
   );
 }
