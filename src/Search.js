@@ -23,12 +23,12 @@ export default function Search() {
   }
   return (
     <div className="Search">
+      <h3>What word do you want to look up?</h3>
       <form onSubmit={search}>
-        <input type="search" 
-        onChange={handleKeywordChange}
-        autoFocus={true} />
+        <input type="search" onChange={handleKeywordChange} autoFocus={true} />
       </form>
-      <Results  results={results} />
+      <p1 className="searchExample">i.e. food, dog, forest, sunrise </p1>
+      <Results results={results} />
     </div>
   );
 }

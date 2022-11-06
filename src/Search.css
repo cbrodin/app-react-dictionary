@@ -1,8 +1,13 @@
-.Search { 
-   width: 25%;
+.Search {text-align: center;
+  display: block;
+   width: 40%;
    margin: 30px auto;
   border: 20px;
   border-radius: 10px;
-  padding: 40px 40px;
+  padding: 20px;
   color: #000000;
 background: transparent 20%}
+.searchExample{
+  text-size-adjust: 6px;
+  color: azure;
+}
