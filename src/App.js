@@ -9,8 +9,6 @@ function App() {
         <img
           src="Dictionary.png"
           alt="Dictionary logo"
-          width="150"
-          height="200"
           className="logo"
         ></img>
         <Search />
