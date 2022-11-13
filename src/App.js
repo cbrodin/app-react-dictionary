@@ -10,10 +10,16 @@ function App() {
           src="Dictionary.png"
           alt="Dictionary logo"
           className="logo"
+          href="#"
+          target="_blank"
         ></img>
-        <Search />
       </header>
-      <footer className='App-footer'>
+      <section>
+        <div className="SearchC">
+          <Search defaultKeyword="blue" />
+        </div>
+      </section>
+      <footer className="App-footer">
         <p>
           This project was coded by{" "}
           <a className="App-link" href="#" target="_blank">

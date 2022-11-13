@@ -1,13 +1,19 @@
-.Search {text-align: center;
+.Search {
   display: block;
-   width: 40%;
+   width: 70%;
    margin: 30px auto;
   border: 20px;
   border-radius: 10px;
   padding: 20px;
   color: #000000;
 background: transparent 20%}
+
 .searchExample{
-  text-size-adjust: 6px;
-  color: azure;
+  font-size: 12px;
+  color: #24d4db;
+  margin-top: 5px;
 }
+.Search section{ background: white; padding: 30px; border-radius: 10px; box-shadow: 0 10px 10px rbg(0 0 0 / 10%);
+margin: 20px 0;}
+
+.Search input{ width: 100%; border-radius: 10px; padding: 8px 12px; color: #000000; border: 1px solid 24d4db;}
